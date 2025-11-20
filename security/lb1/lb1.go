@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-const WITH_PUNCTIATION_AND_NUMBERS = true
+const WITH_PUNCTIATION_AND_NUMBERS = false
 
 const WIDTH = 5
 const HEIGHT = 5
