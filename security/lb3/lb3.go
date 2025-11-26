@@ -11,6 +11,8 @@ import (
 	"golang.org/x/image/bmp"
 )
 
+const DEBUG = false
+
 func readImage(path string) image.Image {
 	inputFile, err := os.Open(path)
 
@@ -87,6 +89,18 @@ func encodeMessage(message string, inputImage image.Image) image.Image {
 			r ^= 1
 		}
 
+		if DEBUG {
+			if one == 1 {
+				r = 255
+				g = 255
+				b = 255
+			} else {
+				r = 0
+				g = 0
+				b = 0
+			}
+		}
+
 		rgba.Set(x, y, color.RGBA{r, g, b, a})
 
 		x += 5
@@ -144,13 +158,13 @@ func Run() {
 	fmt.Println()
 
 	fmt.Println("Read original image")
-	originalImage := readImage("./lb2/input-cat.bmp")
+	originalImage := readImage("./lb3/input-cat.bmp")
 
 	fmt.Println("Create encoced image")
 	encodedImage := encodeMessage(originalMessage, originalImage)
 
 	fmt.Println("Save encoded image")
-	writeImage("./lb2/output-cat.bmp", encodedImage)
+	writeImage("./lb3/output-cat.bmp", encodedImage)
 
 	fmt.Println("Read text from encoded image")
 	decodedMessage := decodeMessage(encodedImage, len(originalMessage))
