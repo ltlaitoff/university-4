@@ -1,7 +1,7 @@
 package main
 
-import "github.com/ltlaitoff/university-4/security/lb1"
+import "github.com/ltlaitoff/university-4/security/lb3"
 
 func main() {
-	lb1.Run()
+	lb3.Run()
 }
