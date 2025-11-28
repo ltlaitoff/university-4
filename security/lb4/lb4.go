@@ -8,7 +8,7 @@ import (
 	"math/big"
 )
 
-const DEBUG = true
+const DEBUG = false
 
 var lookUpTable map[rune]int = map[rune]int{
 	'А': 1, 'Б': 2, 'В': 3, 'Г': 4, 'Д': 5,
@@ -74,7 +74,7 @@ func signingRSA(h int, N, d int) int {
 }
 
 func verifyRSA(h int, s int, N, e int) bool {
-	log.Println(powInt(s, e)%N, h)
+	log.Println("Pow s^e%N is ", powInt(s, e)%N, "\t Hash is ", h)
 
 	return powInt(s, e)%N == h
 }
