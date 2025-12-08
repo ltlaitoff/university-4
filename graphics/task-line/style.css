@@ -1,0 +1,49 @@
+body {
+	box-sizing: border-box;
+}
+
+.layout {
+	display: flex;
+	column-gap: 50px;
+}
+
+.field {
+	position: relative;
+	border: 1px solid black;
+	display: grid;
+  
+	width: calc(var(--N) * var(--cell));
+  height: calc(var(--N) * var(--cell));
+	
+	grid-template-columns: repeat(var(--N),var(--cell));
+  grid-template-rows: repeat(var(--N),var(--cell));
+}
+
+.field-cell {
+	border: 1px solid black;
+}
+
+.field-cell--active {
+	background: black;
+}
+
+.point {
+	position: absolute;
+
+	width: calc(var(--cell)/2);
+	height: calc(var(--cell)/2);
+
+	border-radius: 100%;
+
+	margin: calc(var(--cell)/4);
+	top: calc(var(--y) * var(--cell));
+	left: calc(var(--x) * var(--cell));
+}
+
+.point--fisrt {
+	background: red;
+}
+
+.point--second {
+	background: blue;
+}
