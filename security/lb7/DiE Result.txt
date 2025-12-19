@@ -1,0 +1,205 @@
+C:\home\university-4\security\lb7\mfc-alternate-d.exe 163 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, GUI]
+    Language: C++
+    Compiler: Microsoft Visual C/C++(19.36.35219)[C++]
+    Library: MFC(14.0)[debug]
+    Linker: Microsoft Linker(14.36.35219)
+    Tool: Visual Studio(2022, v17.6)
+
+C:\home\university-4\security\lb7\mfc-alternate.exe 237 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, GUI]
+    Packer: UPX(3.91+)[modified]
+    Language: C++
+    Compiler: Microsoft Visual C/C++(19.36.35219)[C++]
+    Library: MFC(14.0)[debug]
+    Linker: Microsoft Linker(14.36.35219)
+    Tool: Visual Studio(2022, v17.6)
+    (Heur)Protection: Generic[Unreadable resources]
+    (Heur)Packer: Compressed or packed data[EntryPoint + Imports like UPX (v3.91+) + Sections like UPX + Sections collision ("UPX") + High entropy + Section 1 ("UPX1") compressed]
+
+C:\home\university-4\security\lb7\mfc-asm-guard.exe 124 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, GUI]
+    Protector: ASM Guard(2.XX)
+    Packer: UPX(3.01)
+    Language: C++
+    Compiler: Microsoft Visual C/C++(19.36.35219)[C++]
+    Library: MFC(14.0)[debug]
+    Linker: Microsoft Linker(14.36.35219)
+    Tool: Visual Studio(2022, v17.6)
+    (Heur)Protection: Generic[Strange sections + Unreadable resources]
+    (Heur)Packer: Compressed or packed data[EntryPoint + Imports like ASM Guard (v2.XX+) + High entropy + Section 1 ("b�bbb") compressed]
+
+C:\home\university-4\security\lb7\mfc-mpress.exe 142 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, GUI]
+    Packer: MPRESS(2.19)
+    Language: C/C++
+    Compiler: Microsoft Visual C/C++
+    Library: MFC(14.0)[debug]
+    Linker: Microsoft Linker
+    (Heur)Protection: Generic[Missing DOS + No extension import + Unreadable resources]
+    (Heur)Packer: Compressed or packed data[EntryPoint + Imports like MPRESS + Sections like MPRESS + Section 0 (".MPRESS1") compressed]
+
+C:\home\university-4\security\lb7\mfc-upx-d.exe 169 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, GUI]
+    Language: C++
+    Compiler: Microsoft Visual C/C++(19.36.35219)[C++]
+    Library: MFC(14.0)[debug]
+    Linker: Microsoft Linker(14.36.35219)
+    Tool: Visual Studio(2022, v17.6)
+
+C:\home\university-4\security\lb7\mfc-upx.exe 122 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, GUI]
+    Packer: UPX(5.02)[NRV,brute]
+    Language: C++
+    Compiler: Microsoft Visual C/C++(19.36.35219)[C++]
+    Library: MFC(14.0)[debug]
+    Linker: Microsoft Linker(14.36.35219)
+    Tool: Visual Studio(2022, v17.6)
+    (Heur)Protection: Generic[Unreadable resources]
+    (Heur)Packer: Compressed or packed data[EntryPoint + Imports like UPX (v3.91+) + Sections like UPX + Sections collision ("UPX") + High entropy + Section 1 ("UPX1") compressed]
+
+C:\home\university-4\security\lb7\mfc.exe 178 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, GUI]
+    Language: C++
+    Compiler: Microsoft Visual C/C++(19.36.35219)[C++]
+    Library: MFC(14.0)[debug]
+    Linker: Microsoft Linker(14.36.35219)
+    Tool: Visual Studio(2022, v17.6)
+
+C:\home\university-4\security\lb7\small-console-app-alternate-d.exe 90 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, Console]
+    Language: C++
+    Compiler: Microsoft Visual C/C++(19.36.35219)[C++]
+    Linker: Microsoft Linker(14.36.35219)
+    Tool: Visual Studio(2022, v17.6)
+
+C:\home\university-4\security\lb7\small-console-app-alternate.exe 91 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, Console]
+    Packer: UPX(3.91+)[modified]
+    Language: C++
+    Compiler: Microsoft Visual C/C++(19.36.35219)[C++]
+    Linker: Microsoft Linker(14.36.35219)
+    Tool: Visual Studio(2022, v17.6)
+    (Heur)Packer: Compressed or packed data[EntryPoint + Imports like UPX (v3.91+) + Sections like UPX + Sections collision ("UPX") + High entropy + Section 1 ("UPX1") compressed]
+
+C:\home\university-4\security\lb7\small-console-app-asm-guard.exe 90 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, Console]
+    Protector: ASM Guard(2.XX)
+    Packer: UPX(3.91+)[modified]
+    Language: C++
+    Compiler: Microsoft Visual C/C++(19.36.35219)[C++]
+    Linker: Microsoft Linker(14.36.35219)
+    Tool: Visual Studio(2022, v17.6)
+    (Heur)Protection: Generic[Strange sections + Unreadable resources]
+    (Heur)Packer: Compressed or packed data[EntryPoint + Imports like ASM Guard (v2.XX+) + High entropy + Section 1 ("bzbbb") compressed]
+
+C:\home\university-4\security\lb7\small-console-app-mpress.exe 90 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, Console]
+    Packer: MPRESS(2.19)
+    (Heur)Protection: Generic[Missing DOS + No extension import]
+    (Heur)Packer: Compressed or packed data[EntryPoint + Imports like MPRESS + Sections like MPRESS + High entropy + Section 0 (".MPRESS1") compressed]
+    (Heur)Compiler: Microsoft Visual C/C++
+    (Heur)Language: C++
+
+C:\home\university-4\security\lb7\small-console-app-upx-d.exe 81 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, Console]
+    Language: C++
+    Compiler: Microsoft Visual C/C++(19.36.35219)[C++]
+    Linker: Microsoft Linker(14.36.35219)
+    Tool: Visual Studio(2022, v17.6)
+
+C:\home\university-4\security\lb7\small-console-app-upx.exe 86 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, Console]
+    Packer: UPX(5.02)[NRV,best]
+    Language: C++
+    Compiler: Microsoft Visual C/C++(19.36.35219)[C++]
+    Linker: Microsoft Linker(14.36.35219)
+    Tool: Visual Studio(2022, v17.6)
+    (Heur)Packer: Compressed or packed data[EntryPoint + Imports like UPX (v3.91+) + Sections like UPX + Sections collision ("UPX") + High entropy + Section 1 ("UPX1") compressed]
+
+C:\home\university-4\security\lb7\small-console-app.exe 79 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, Console]
+    Language: C++
+    Compiler: Microsoft Visual C/C++(19.36.35219)[C++]
+    Linker: Microsoft Linker(14.36.35219)
+    Tool: Visual Studio(2022, v17.6)
+
+C:\home\university-4\security\lb7\windows-api-alternate-d.exe 89 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, GUI]
+    Language: C++
+    Compiler: Microsoft Visual C/C++(19.36.35219)[C++]
+    Linker: Microsoft Linker(14.36.35219)
+    Tool: Visual Studio(2022, v17.6)
+
+C:\home\university-4\security\lb7\windows-api-alternate.exe 91 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, GUI]
+    Packer: UPX(3.91+)[modified]
+    Language: C++
+    Compiler: Microsoft Visual C/C++(19.36.35219)[C++]
+    Linker: Microsoft Linker(14.36.35219)
+    Tool: Visual Studio(2022, v17.6)
+    (Heur)Protection: Generic[Unreadable resources]
+    (Heur)Packer: Compressed or packed data[EntryPoint + Imports like UPX (v3.91+) + Sections like UPX + Sections collision ("UPX") + Section 1 ("UPX1") compressed]
+
+C:\home\university-4\security\lb7\windows-api-asm-guard.exe 97 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, GUI]
+    Protector: ASM Guard(2.XX)
+    Packer: UPX(3.05)
+    Language: C++
+    Compiler: Microsoft Visual C/C++(19.36.35219)[C++]
+    Linker: Microsoft Linker(14.36.35219)
+    Tool: Visual Studio(2022, v17.6)
+    (Heur)Protection: Generic[Strange sections + Unreadable resources]
+    (Heur)Packer: Compressed or packed data[EntryPoint + Imports like ASM Guard (v2.XX+) + Section 1 ("b�bbb") compressed]
+
+C:\home\university-4\security\lb7\windows-api-mpress.exe 103 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, GUI]
+    Packer: MPRESS(2.19)
+    (Heur)Protection: Generic[Missing DOS + No extension import + Unreadable resources]
+    (Heur)Packer: Compressed or packed data[EntryPoint + Imports like MPRESS + Sections like MPRESS + Section 0 (".MPRESS1") compressed]
+    (Heur)Language: ASMx64
+
+C:\home\university-4\security\lb7\windows-api-upx-d.exe 90 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, GUI]
+    Language: C++
+    Compiler: Microsoft Visual C/C++(19.36.35219)[C++]
+    Linker: Microsoft Linker(14.36.35219)
+    Tool: Visual Studio(2022, v17.6)
+
+C:\home\university-4\security\lb7\windows-api-upx.exe 92 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, GUI]
+    Packer: UPX(5.02)[NRV,best]
+    Language: C++
+    Compiler: Microsoft Visual C/C++(19.36.35219)[C++]
+    Linker: Microsoft Linker(14.36.35219)
+    Tool: Visual Studio(2022, v17.6)
+    (Heur)Protection: Generic[Unreadable resources]
+    (Heur)Packer: Compressed or packed data[EntryPoint + Imports like UPX (v3.91+) + Sections like UPX + Sections collision ("UPX") + Section 1 ("UPX1") compressed]
+
+C:\home\university-4\security\lb7\windows-api.exe 90 msec
+PE64
+    Operation system: Windows(Vista)[AMD64, 64-bit, GUI]
+    Language: C++
+    Compiler: Microsoft Visual C/C++(19.36.35219)[C++]
+    Linker: Microsoft Linker(14.36.35219)
+    Tool: Visual Studio(2022, v17.6)
