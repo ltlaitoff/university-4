@@ -223,7 +223,7 @@ func decodePolybiusSquare(encodedData string, sourceCode string) (string, error)
 func Run() {
 	println("LB 1")
 
-	sourceText := "Modern cryptography is heavily based on mathematical theory and computer science practice; cryptographic algorithms are designed around computational hardness assumptions, making such algorithms hard to break in actual practice by any adversary. While it is theoretically possible to break into a well-designed system, it is infeasible in actual practice to do so. Such schemes, if well designed, are therefore termed \"computationally secure\". Theoretical advances (e.g., improvements in integer factorization algorithms) and faster computing technology require these designs to be continually reevaluated and, if necessary, adapted. Information-theoretically secure schemes that provably cannot be broken even with unlimited computing power, such as the one-time pad, are much more difficult to use in practice than the best theoretically breakable but computationally secure schemes."
+	sourceText := "Test-text"
 	code := "MODERN"
 
 	fmt.Println("Source text:", sourceText)

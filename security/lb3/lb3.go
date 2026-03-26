@@ -175,4 +175,5 @@ func Run() {
 
 	fmt.Println()
 	fmt.Println("Is original == decoded?", originalMessage == decodedMessage)
+	fmt.Println()
 }
